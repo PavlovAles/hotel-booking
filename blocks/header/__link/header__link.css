@@ -1,3 +1,6 @@
 ﻿.header__link {
-
+  font-size: 16px;
+  line-height: 1.19;
+  text-decoration: none;
+  color: #192252;
 }

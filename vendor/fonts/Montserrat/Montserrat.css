@@ -1,11 +1,11 @@
 @font-face {
-  src: url("./Montserrat-SemiBold.ttf") format("ttf");
+  src: url(./Montserrat-SemiBold.ttf);
   font-family: 'Montserrat';
   font-weight: 600;
 }
 
 @font-face {
-  src: url("./Montserrat-Bold.ttf") format("ttf");
+  src: url(./Montserrat-Bold.ttf);
   font-family: 'Montserrat';
   font-weight: 700;
 }

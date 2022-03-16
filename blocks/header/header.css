@@ -1,3 +1,6 @@
 ﻿.header {
-
+  padding: 37px 120px 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
