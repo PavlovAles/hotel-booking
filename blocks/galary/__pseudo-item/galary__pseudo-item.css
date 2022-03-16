@@ -3,6 +3,7 @@
   height: 8px;
   border-radius: 50%;
   cursor: pointer;
+  transition: transform .3s ease-in-out;
 }
 
 .galary__control-item:nth-of-type(1) .galary__pseudo-item {
