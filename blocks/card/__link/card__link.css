@@ -1,3 +1,8 @@
 ﻿.card__link {
-
+  margin-top: auto;
+  justify-self: flex-end;
+  font-size: 18px;
+  line-height: 1.5;
+  text-decoration: none;
+  color: #424F7B;
 }
