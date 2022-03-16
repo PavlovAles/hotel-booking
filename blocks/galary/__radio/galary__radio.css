@@ -1,3 +1,125 @@
 ﻿.galary__radio {
-
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
 }
+
+
+.galary__radio:nth-of-type(1):checked ~ .galary__items {
+  --row-start1: 1;
+  --row-end1: 4;
+  --column1: 1;
+
+  --row-start2: 1;
+  --row-end2: 2;
+  --column2: 2;
+
+  --row-start3: 2;
+  --row-end3: 3;
+  --column3: 2;
+
+  --row-start4: 3;
+  --row-end4: 4;
+  --column4: 2;
+}
+
+.galary__radio:nth-of-type(2):checked ~ .galary__items {
+  --row-start1: 3;
+  --row-end1: 4;
+  --column1: 2;
+
+  --row-start2: 1;
+  --row-end2: 4;
+  --column2: 1;
+
+  --row-start3: 1;
+  --row-end3: 2;
+  --column3: 2;
+
+  --row-start4: 2;
+  --row-end4: 3;
+  --column4: 2;
+}
+
+.galary__radio:nth-of-type(3):checked ~ .galary__items {
+  --row-start1: 2;
+  --row-end1: 3;
+  --column1: 2;
+
+  --row-start2: 3;
+  --row-end2: 4;
+  --column2: 2;
+
+  --row-start3: 1;
+  --row-end3: 4;
+  --column3: 1;
+
+  --row-start4: 1;
+  --row-end4: 2;
+  --column4: 2;
+}
+
+.galary__radio:nth-of-type(4):checked ~ .galary__items {
+  --row-start1: 1;
+  --row-end1: 2;
+  --column1: 2;
+
+  --row-start2: 2;
+  --row-end2: 3;
+  --column2: 2;
+
+  --row-start3: 3;
+  --row-end3: 4;
+  --column3: 2;
+
+  --row-start4: 1;
+  --row-end4: 4;
+  --column4: 1;
+}
+
+.galary__radio:nth-of-type(1):checked ~ .galary__controls {
+  --scale1: 1.5;
+  --color1: #fab047;
+  --scale2: 1;
+  --color2: #fff;
+  --scale3: 1;
+  --color3: #fff;
+  --scale4: 1;
+  --color4: #fff;
+  }
+
+.galary__radio:nth-of-type(2):checked ~ .galary__controls {
+  --scale1: 1;
+  --color1: #fff;
+  --scale2: 1.5;
+  --color2: #fab047;
+  --scale3: 1;
+  --color3: #fff;
+  --scale4: 1;
+  --color4: #fff;
+  }
+
+.galary__radio:nth-of-type(3):checked ~ .galary__controls {
+  --scale1: 1;
+  --color1: #fff;
+  --scale2: 1;
+  --color2: #fff;
+  --scale3: 1.5;
+  --color3: #fab047;
+  --scale4: 1;
+  --color4: #fff;
+  }
+
+.galary__radio:nth-of-type(4):checked ~ .galary__controls {
+  --scale1: 1;
+  --color1: #fff;
+  --scale2: 1;
+  --color2: #fff;
+  --scale3: 1;
+  --color3: #fff;
+  --scale4: 1.5;
+  --color4: #fab047;
+  }
+

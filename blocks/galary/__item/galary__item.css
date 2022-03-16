@@ -1,3 +1,33 @@
 ﻿.galary__item {
-
+  background-size: cover;
 }
+
+.galary__item:nth-of-type(1) {
+  background-image: url(../../../images/interiors-1.png);
+  grid-column-start: var(--column1);
+  grid-row-start: var(--row-start1);
+  grid-row-end: var(--row-end1);
+}
+
+.galary__item:nth-of-type(2) {
+  background-image: url(../../../images/interiors-2.png);
+  grid-column-start: var(--column2);
+  grid-row-start: var(--row-start2);
+  grid-row-end: var(--row-end2);
+}
+
+.galary__item:nth-of-type(3) {
+  background-image: url(../../../images/interiors-3.png);
+  grid-column-start: var(--column3);
+  grid-row-start: var(--row-start3);
+  grid-row-end: var(--row-end3);
+}
+
+.galary__item:nth-of-type(4) {
+  background-image: url(../../../images/interiors-4.png);
+  grid-column-start: var(--column4);
+  grid-row-start: var(--row-start4);
+  grid-row-end: var(--row-end4);
+}
+
+

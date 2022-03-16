@@ -1,3 +1,14 @@
 ﻿.galary__controls {
-
+  margin: 0;
+  padding: 0;
+  width: 70px;
+  height: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  position: absolute;
+  bottom: 28px;
+  left: calc(35% - 35px);
 }

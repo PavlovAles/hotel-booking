@@ -1,3 +1,11 @@
 ﻿.galary__items {
-
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 585px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 3px;
 }
