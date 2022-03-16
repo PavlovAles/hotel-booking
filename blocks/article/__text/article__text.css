@@ -1,3 +1,4 @@
 ﻿.article__text {
-
+  max-width: 580px;
+  min-width: min-content;
 }

@@ -1,3 +1,4 @@
 ﻿.first__img {
-
+  max-width: 588px;
+  clip-path: url(#path);
 }
