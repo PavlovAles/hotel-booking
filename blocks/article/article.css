@@ -1,4 +1,5 @@
 ﻿.article {
+  max-width: 1093px;
   display: flex;
   justify-content: space-between;
 }
