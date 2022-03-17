@@ -1,3 +1,6 @@
 ﻿.feedback {
-
+  box-sizing: border-box;
+  padding-bottom: 36px;
+  min-height: 351px;
+  position: relative;
 }

@@ -1,3 +1,28 @@
 ﻿.feedback__pseudo-item {
-
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform .3s ease-in-out;
 }
+
+.feedback__control-item:nth-of-type(1) .feedback__pseudo-item {
+  transform: scale(var(--scale1));
+  background-color: var(--color1)
+}
+
+.feedback__control-item:nth-of-type(2) .feedback__pseudo-item {
+  transform: scale(var(--scale2));
+  background-color: var(--color2)
+}
+
+.feedback__control-item:nth-of-type(3) .feedback__pseudo-item {
+  transform: scale(var(--scale3));
+  background-color: var(--color3)
+}
+
+.feedback__control-item:nth-of-type(4) .feedback__pseudo-item {
+  transform: scale(var(--scale4));
+  background-color: var(--color4)
+}
+
