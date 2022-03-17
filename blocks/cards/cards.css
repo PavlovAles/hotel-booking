@@ -1,4 +1,5 @@
 ﻿.cards {
+  padding: 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(384px, 1fr));
   list-style: none;
