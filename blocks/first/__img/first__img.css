@@ -1,4 +1,8 @@
 ﻿.first__img {
-  max-width: 588px;
-  clip-path: url(#path);
+  width: 100%;
+  max-width: 587px;
+  height: 668px;
+  border-radius: 4px;
+  background-position: center;
+  background-image: url(../../../images/mask.svg), url(../../../images/first-house.jpg);
 }
