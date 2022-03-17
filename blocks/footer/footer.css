@@ -4,3 +4,21 @@
   background-color: #0b265a;
   color: #fff;
 }
+
+@media (max-width: 1024px) {
+  .footer {
+    padding: 100px 10vw 100px;
+  }  
+}
+@media (max-width: 768px) {
+  .footer {
+    padding: 100px 5vw 100px;
+  }  
+}
+
+
+@media (max-width: 425px) {
+  .footer {
+    padding: 20px 16px 30px;
+  }  
+}

@@ -5,3 +5,9 @@
   gap: 24px;
   list-style: none;
 }
+@media (max-width: 425px) {
+  .footer__social {
+   justify-content: space-evenly;
+   margin-top: 25px;
+  }
+}

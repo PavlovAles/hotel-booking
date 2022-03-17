@@ -1,3 +1,10 @@
 ﻿.footer__social-icon {
   width: 34px;
 }
+
+
+@media (max-width: 1024px) {
+  .footer__social-icon {
+    width: 24px;
+  }
+}

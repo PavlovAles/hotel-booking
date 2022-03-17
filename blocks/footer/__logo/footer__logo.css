@@ -1,2 +1,7 @@
 ﻿.footer__logo {
 }
+@media (max-width: 1024px) {
+    .footer__logo {
+        width: 150px;
+    }
+}

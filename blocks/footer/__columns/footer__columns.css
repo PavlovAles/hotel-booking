@@ -2,3 +2,22 @@
   display: flex;
   gap: 95px;
 }
+@media (max-width: 1024px) {
+  .footer__columns {
+    gap: 4vw;
+  }
+}
+@media (max-width: 630px) {
+  .footer__columns {
+    margin-top: 20px;
+  }
+}
+
+
+@media (max-width: 425px) {
+  .footer__columns {
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 40px;
+  }
+}

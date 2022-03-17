@@ -4,3 +4,12 @@
   display: flex;
   justify-content: space-between;
 }
+
+
+@media (max-width: 630px) {
+  .footer__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }   
+}

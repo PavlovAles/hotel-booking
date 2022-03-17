@@ -4,3 +4,9 @@
   line-height: 1.45;
   color: #d9dbde;
 }
+
+@media (max-width: 1024px) {
+  .footer__slogan {
+    font-size: 14px;
+  }
+}
