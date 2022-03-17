@@ -9,3 +9,10 @@
   grid-template-rows: repeat(3, 1fr);
   gap: 3px;
 }
+
+@media (max-width: 1024px) {
+  .galary__items {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 3fr 1fr;
+  }
+}

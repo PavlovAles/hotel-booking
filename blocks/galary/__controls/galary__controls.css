@@ -12,3 +12,10 @@
   bottom: 28px;
   left: calc(35% - 35px);
 }
+
+@media (max-width: 1024px) {
+  .galary__controls {
+    bottom: 170px;
+    left: calc(50% - 35px);
+  }
+}
