@@ -1,3 +1,4 @@
 ﻿.footer__columns {
-
+  display: flex;
+  gap: 95px;
 }

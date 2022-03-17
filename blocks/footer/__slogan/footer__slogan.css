@@ -1,3 +1,6 @@
 ﻿.footer__slogan {
-
+  max-width: 186px;
+  font-size: 16px;
+  line-height: 1.45;
+  color: #d9dbde;
 }
