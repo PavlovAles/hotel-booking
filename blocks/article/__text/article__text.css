@@ -1,4 +1,6 @@
 ﻿.article__text {
   max-width: 580px;
   min-width: min-content;
+  align-self: center;
+  flex-shrink: 10;
 }
