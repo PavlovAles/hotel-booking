@@ -6,3 +6,9 @@
   gap: 36px;
   list-style: none;
 }
+
+@media (max-width: 1024px) {
+  .header__links {
+    margin: 0 15px;
+  }
+}
