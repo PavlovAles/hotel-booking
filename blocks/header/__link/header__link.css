@@ -1,6 +1,7 @@
 ﻿.header__link {
   font-size: 16px;
   line-height: 1.19;
+  font-weight: 500;
   text-decoration: none;
   color: #192252;
 }
@@ -13,5 +14,4 @@
   .header__link {
     font-size: 16px;
   }
-}
 }
