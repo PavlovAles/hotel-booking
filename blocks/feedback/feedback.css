@@ -4,3 +4,15 @@
   min-height: 351px;
   position: relative;
 }
+
+@media (max-width: 400px) {
+  .feedback {
+    min-height: 380px;
+  }
+}
+
+@media (max-width: 364px) {
+  .feedback {
+    min-height: 430px;
+  }
+}

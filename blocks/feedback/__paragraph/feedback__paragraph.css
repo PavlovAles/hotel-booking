@@ -5,3 +5,9 @@
   line-height: 1.5;
   color: #848FAC;
 }
+
+@media (max-width: 512px) {
+  .feedback__paragraph {
+    margin-bottom: 20px;
+  }
+}

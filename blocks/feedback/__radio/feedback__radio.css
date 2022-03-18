@@ -7,28 +7,28 @@
 }
 
 .feedback__radio:nth-of-type(1):checked ~ .feedback__items {
-  --display1: flex;
-  --display2: none;
-  --display3: none;
-  --display4: none;
+  --display1: 1;
+  --display2: 0;
+  --display3: 0;
+  --display4: 0;
 }
 .feedback__radio:nth-of-type(2):checked ~ .feedback__items {
-  --display1: none;
-  --display2: flex;
-  --display3: none;
-  --display4: none;
+  --display1: 0;
+  --display2: 1;
+  --display3: 0;
+  --display4: 0;
 }
 .feedback__radio:nth-of-type(3):checked ~ .feedback__items {
-  --display1: none;
-  --display2: none;
-  --display3: flex;
-  --display4: none;
+  --display1: 0;
+  --display2: 0;
+  --display3: 1;
+  --display4: 0;
 }
 .feedback__radio:nth-of-type(4):checked ~ .feedback__items {
-  --display1: none;
-  --display2: none;
-  --display3: none;
-  --display4: flex;
+  --display1: 0;
+  --display2: 0;
+  --display3: 0;
+  --display4: 1;
 }
 
 .feedback__radio:nth-of-type(1):checked ~ .feedback__controls {

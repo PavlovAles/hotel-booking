@@ -1,21 +1,27 @@
 ﻿.feedback__item {
+  width: 100%;
+  max-width: 793px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity .3s ease-in-out;
 }
 
 .feedback__item:nth-of-type(1) {
-  display: var(--display1);
+  opacity: var(--display1);
 }
 
 .feedback__item:nth-of-type(2) {
-  display: var(--display2);
+  opacity: var(--display2);
 }
 
 .feedback__item:nth-of-type(3) {
-  display: var(--display3);
+  opacity: var(--display3);
 }
 
 .feedback__item:nth-of-type(4) {
-  display: var(--display4);
+  opacity: var(--display4);
 }
