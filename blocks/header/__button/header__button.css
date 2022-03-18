@@ -2,3 +2,17 @@
   padding: 14px 16px;
   min-height: 47px;
 }
+@media (max-width: 768px) {
+  .header__button {
+    padding: 10px 10px;
+    min-height: 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .header__button {
+    padding: 14px 16px;
+    min-height: 47px;
+    margin-top: 20px;
+  }
+}
