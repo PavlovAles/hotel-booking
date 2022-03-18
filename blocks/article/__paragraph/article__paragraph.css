@@ -4,3 +4,17 @@
   line-height: 1.5;
   color: #848FAC;
 }
+
+@media (max-width: 800px) {
+  .article__paragraph {
+    font-size: 17px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .article__paragraph {
+    font-size: 15px;
+    text-align: center;
+  }
+}

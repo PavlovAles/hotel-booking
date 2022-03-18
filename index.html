@@ -25,24 +25,38 @@
         <section class="first">
           <article class="article first__article">
             <div class="article__text">
-              <h1 class="article__heading first__heading">
+              <h1 class="article__title first__title">
                 Аренда загородного дома&nbsp;для отдыха
               </h1>
               <p class="article__paragraph first__paragraph">
                 Самые выгодные предложения по&nbsp;аренде коттеджей
                 и&nbsp;загородных домов в&nbsp;Москве и&nbsp;области
               </p>
-              <div class="button">
+              <div class="button article__button">
                 <a href="#" class="button__link">Бронирование</a>
               </div>
             </div>
-            <div class="first__img"></div>
+            <div class="article__img-container first__img">
+              <img
+                src="./images/mask.svg"
+                class="article__img-mask"
+                alt="Загородный Дом"
+              />
+              <div class="article__inner-img-container">
+                <img
+                  src="./images/first-house.jpg"
+                  class="article__img"
+                  alt="Загородный Дом"
+                />
+              </div>
+            </div>
+            <!-- <div class="first__img"></div> -->
           </article>
         </section>
         <section class="about">
           <article class="article article_img-first">
             <div class="article__text">
-              <h2 class="article__heading">
+              <h2 class="article__title">
                 Уютный двухэтажный дом в&nbsp;норвежском стиле
               </h2>
               <p class="article__paragraph">
@@ -52,16 +66,16 @@
                 и&nbsp;столовых приборов. В&nbsp;каждом коттедже: стиральная
                 машина, гладильная станция, сушилка для белья, фен.
               </p>
-              <div class="button">
+              <div class="button article__button">
                 <a href="#" class="button__link">Подробнее</a>
               </div>
             </div>
             <div class="article__img-container">
               <div class="article__inner-img-container">
                 <img
-                src="./images/about-house.png"
-                class="article__img"
-                alt="Дом в норвежском стиле"
+                  src="./images/about-house.png"
+                  class="article__img"
+                  alt="Дом в норвежском стиле"
                 />
               </div>
             </div>
@@ -70,7 +84,7 @@
         <section class="benefit">
           <article class="article">
             <div class="article__text">
-              <h2 class="article__heading">Активности</h2>
+              <h2 class="article__title">Активности</h2>
               <p class="article__paragraph">
                 К&nbsp;вашим услугам наши прекрасные повора, которые приготовят
                 вкусную еду по&nbsp;составленную для вас персональному меню.<br />Также
@@ -78,29 +92,33 @@
                 и&nbsp;прочими услугами, доступными на&nbsp;нашей территории.
               </p>
             </div>
-              <div class="article__img-container">
-                <div class="article__inner-img-container benefit__inner-img-container">
-                  <img
-                    src="./images/benefit-glasses.png"
-                    class="article__img benefit__img"
-                    alt="Ужин"
-                  />
-                </div>
+            <div class="article__img-container">
+              <div
+                class="article__inner-img-container article__inner-img-container_rectangle"
+              >
+                <img
+                  src="./images/benefit-glasses.png"
+                  class="article__img article__img_rectangle"
+                  alt="Ужин"
+                />
               </div>
+            </div>
           </article>
           <article class="article article_img-first">
             <div class="article__text">
-              <h2 class="article__heading">100% Натуральные продукты</h2>
+              <h2 class="article__title">100% Натуральные продукты</h2>
               <p class="article__paragraph">
                 При приготовлении наших блюд мы&nbsp;используем только свежие,
                 полезные, натуральные продукты.
               </p>
             </div>
             <div class="article__img-container">
-              <div class="article__inner-img-container benefit__inner-img-container">
+              <div
+                class="article__inner-img-container article__inner-img-container_rectangle"
+              >
                 <img
                   src="./images/benefit-meal.png"
-                  class="article__img benefit__img"
+                  class="article__img article__img_rectangle"
                   alt="Вегатарианское блюдо"
                 />
               </div>
@@ -378,7 +396,7 @@
           </div>
           <div class="footer__columns">
             <nav class="footer__column">
-              <h2 class="footer__column-heading">Дома</h2>
+              <h2 class="footer__column-title">Дома</h2>
               <ul class="footer__column-links">
                 <li>
                   <a href="#" class="footer__column-link">Маленький домик</a>
@@ -392,7 +410,7 @@
               </ul>
             </nav>
             <nav class="footer__column">
-              <h2 class="footer__column-heading">Бронирование</h2>
+              <h2 class="footer__column-title">Бронирование</h2>
               <ul class="footer__column-links">
                 <li>
                   <a href="#" class="footer__column-link">Оформление</a>
@@ -403,7 +421,7 @@
               </ul>
             </nav>
             <nav class="footer__column">
-              <h2 class="footer__column-heading">Контакты</h2>
+              <h2 class="footer__column-title">Контакты</h2>
               <ul class="footer__column-links">
                 <li class="footer__column-link">
                   8&#8209;800&#8209;555&#8209;35&#8209;35

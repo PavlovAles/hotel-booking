@@ -7,3 +7,9 @@
     padding: 40px 60px;
   }
 }
+
+@media (max-width: 768px) {
+  .first{
+    padding: 30px 20px;
+  }
+}

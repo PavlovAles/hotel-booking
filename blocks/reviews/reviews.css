@@ -1,3 +1,15 @@
 ﻿.reviews {
   padding: 80px 0 80px;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .reviews {
+    padding: 40px 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .reviews {
+    padding: 30px 20px;
+  }
+}

@@ -1,0 +1,15 @@
+﻿.first__title {
+  font-size: 48px;
+}
+
+@media (max-width: 900px) {
+  .first__title {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 600px) {
+  .first__title {
+    font-size: 30px;
+  }
+}

@@ -7,11 +7,15 @@
 
 @import url(../blocks/article/article.css);
 @import url(../blocks/article/__text/article__text.css);
-@import url(../blocks/article/__heading/article__heading.css);
+@import url(../blocks/article/__title/article__title.css);
 @import url(../blocks/article/__paragraph/article__paragraph.css);
+@import url(../blocks/article/__button/article__button.css);
 @import url(../blocks/article/__img-container/article__img-container.css);
+@import url(../blocks/article/__img-container/_rectangle/article__inner-img-container_rectangle.css);
+@import url(../blocks/article/__img-mask/article__img-mask.css);
 @import url(../blocks/article/__inner-img-container/article__inner-img-container.css);
 @import url(../blocks/article/__img/article__img.css);
+@import url(../blocks/article/__img/_rectangle/article__img_rectangle.css);
 @import url(../blocks/article/_img-first/article_img-first.css);
 
 @import url(../blocks/section-title/section-title.css);
@@ -30,15 +34,13 @@
 
 @import url(../blocks/first/first.css);
 @import url(../blocks/first/__article/first__article.css);
-@import url(../blocks/first/__heading/first__heading.css);
+@import url(../blocks/first/__title/first__title.css);
 @import url(../blocks/first/__paragraph/first__paragraph.css);
 @import url(../blocks/first/__img/first__img.css);
 
 @import url(../blocks/about/about.css);
 
 @import url(../blocks/benefit/benefit.css);
-@import url(../blocks/benefit/__img/benefit__img.css);
-@import url(../blocks/benefit/__inner-img-container/benefit__inner-img-container.css);
 
 @import url(../blocks/interiors/interiors.css);
 
@@ -83,7 +85,7 @@
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__column/footer__column.css);
-@import url(../blocks/footer/__column-heading/footer__column-heading.css);
+@import url(../blocks/footer/__column-title/footer__column-title.css);
 @import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
 

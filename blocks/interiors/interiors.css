@@ -2,3 +2,15 @@
   width: 100%;
   padding-top: 80px;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .interiors {
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .interiors{
+    padding-top: 30px;
+  }
+}

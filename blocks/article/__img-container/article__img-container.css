@@ -1,4 +1,12 @@
 .article__img-container {
-  width: 36%;
+  width: 35%;
   flex-shrink: 0;
+  position: relative;
 }
+
+@media (max-width: 800px) {
+  .article__img-container {
+    width: 100%;
+  }
+}
+
