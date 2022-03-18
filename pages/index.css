@@ -34,11 +34,13 @@
 
 @import url(../blocks/first/first.css);
 @import url(../blocks/first/__article/first__article.css);
+@import url(../blocks/first/__text/first__text.css);
 @import url(../blocks/first/__title/first__title.css);
 @import url(../blocks/first/__paragraph/first__paragraph.css);
 @import url(../blocks/first/__img/first__img.css);
 
 @import url(../blocks/about/about.css);
+@import url(../blocks/about/__button/about__button.css);
 
 @import url(../blocks/benefit/benefit.css);
 
@@ -53,6 +55,7 @@
 @import url(../blocks/galary/__pseudo-item/galary__pseudo-item.css);
 
 @import url(../blocks/reservation/reservation.css);
+@import url(../blocks/reservation/__section-title/reservation__section-title.css);
 @import url(../blocks/reservation/__button/reservation__button.css);
 
 @import url(../blocks/cards/cards.css);
@@ -89,7 +92,3 @@
 @import url(../blocks/footer/__column-title/footer__column-title.css);
 @import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
-
-
-@media (max-width: 425px) {
-}

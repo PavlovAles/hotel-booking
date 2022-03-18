@@ -1,0 +1,12 @@
+.first__text {
+  margin-top: 135px;
+  align-self: auto;
+}
+
+@media (max-width: 1350px) {
+  .first__text {
+    margin-top: 0;
+    align-self: center;
+  }
+}
+
