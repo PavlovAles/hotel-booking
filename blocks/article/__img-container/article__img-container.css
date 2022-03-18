@@ -1,0 +1,4 @@
+.article__img-container {
+  width: 36%;
+  flex-shrink: 0;
+}
