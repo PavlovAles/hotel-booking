@@ -4,3 +4,8 @@
   line-height: 1.5;
   color: #848FAC;
 }
+@media (max-width: 425px) {
+  .card__paragraph {
+    margin: 0 10px;
+  }
+}

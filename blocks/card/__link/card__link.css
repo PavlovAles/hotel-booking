@@ -5,4 +5,14 @@
   line-height: 1.5;
   text-decoration: none;
   color: #424F7B;
+  transition: opacity 0.5s linear;
+}
+.card__link:hover {
+  opacity: 0.5;
+}
+
+@media (max-width: 1024px) {
+  .card__link {
+    margin: 40px 10px 0;
+  }
 }

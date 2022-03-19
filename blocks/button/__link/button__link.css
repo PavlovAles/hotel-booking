@@ -5,8 +5,9 @@
   font-weight: 500;
   line-height: 1.19;
   text-decoration: none;
-  color: #fff;
+ color: white;
 }
+
 @media (max-width: 768px) {
   .button__link {
     font-size: 12px;

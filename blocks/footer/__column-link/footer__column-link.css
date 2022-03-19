@@ -3,4 +3,8 @@
   font-size: 16px;
   line-height: 1;
   color: #d9dbde;
+  transition: color 0.5s linear;
+}
+.footer__column-link:hover {
+  color: #fff;
 }

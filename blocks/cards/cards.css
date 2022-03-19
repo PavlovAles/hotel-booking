@@ -5,3 +5,28 @@
   list-style: none;
   gap: 24px;
 }
+@media (max-width: 1440px) {
+  .cards {
+    grid-template-columns: repeat(auto-fill, minmax(28%, 1fr));
+    gap: 20px;
+  }
+}
+@media (max-width: 1024px) {
+  .cards {
+    grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
+    gap: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .cards {
+    grid-template-columns: 100%;
+    gap: 20px;
+    justify-items: center;
+}
+}
+@media (max-width: 425px) {
+  .cards {
+    grid-template-columns: 100%;
+    gap: 30px;
+}
+}
